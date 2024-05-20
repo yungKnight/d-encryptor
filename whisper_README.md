@@ -10,14 +10,14 @@ This is a simple python program with the only requirements being to have ```pyth
 2. Clone the repository
  
 # USAGE
-1. Open your computer terminal
+1. Open your computer terminal <br>
 
-2. Check into the host directory where you cloned the repository into
+2. Check into the host directory where you cloned the repository into <br>
 ```C:\your\host\directory```
 
-3. Check into the cloned repository
+3. Check into the cloned repository <br>
 ```cd d-encryptor``` on ```windows```(check for alternate commands in other OS)
 
-4. Run the command:
- ```python whisper.py "your_message" (drift_value)```
+4. Run the command: <br>
+ ```python whisper.py "your_message" (drift_value)``` <br>
 note: drift_value is optional and can range from 1-25 with no need for the parentheses
