@@ -21,6 +21,6 @@ This is a batch of simple python programs with the only requirements being to ha
 # For encryption of messages:
  ```python whisper.py "your_message" (drift_value)``` <br>
 # For decryption of whisper(s):
- ```python whisper.py "your_message" (drift_value)``` <br>
+ ```python echo.py "your_whisper" (drift_value)``` <br>
 # Note: 
 drift_value is optional and can range from 1-25 with no need for the parentheses
