@@ -1,4 +1,4 @@
-# d-encryptor
+# encryptor
 A simple python program that decrypts encrypted messages in the whisper encryption format
 ensuring accurate interpretation
 and executable from the WindowsOS, MacOS and Linux command terminal
