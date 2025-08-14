@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "d-encryptor"
+version = "0.1.0"
+description = "A simple encryption/decryption tool using drift cipher"
+authors = [{name = "Eniola Ajayi", email = "badoknight1@gmail.com"}]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+]
+
+[project.scripts]
+d-encryptor = "d_encryptor.__main__:main"
